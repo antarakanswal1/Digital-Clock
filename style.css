@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  background-image: url("clock-img/clock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 653px;
+  width: 100%;
+  padding: 250px 0px 0px 150px;
+  color: black;
+  font-size: 20px;
+}
+
+#AM{
+  font-size: 30px;
+}
+
+.digi {
+  font-size: 60px;
+}
+
+.content {
+  margin-left: 190px;
+}
+
+/* Common classses */
+
+.time-item {
+  font-size: 36px;
+  position: relative;
+}
+
+.time-item::after {
+  /* content: ":"; */
+  font-size: 36px;
+  position: absolute;
+}
+
+.dot,
+.seconds {
+  font-size: 36px;
+}
+
+.clock-wrapper {
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 4px black;
+  background-color: black;
+  color: whitesmoke;
+  width: 40%;
+}
